@@ -1,9 +1,9 @@
 {
   "id": "toggle-both-sidebars",
   "name": "Toggle Both Sidebars",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "minAppVersion": "1.13.0",
   "description": "Toggle the left and right sidebars together with one hotkey, or by double-clicking the note text area.",
-  "author": "Michael Stamper",
+  "author": "HiroMike",
   "isDesktopOnly": false
 }
