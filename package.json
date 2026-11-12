@@ -1,0 +1,20 @@
+{
+  "name": "toggle-both-sidebars",
+  "version": "1.1.0",
+  "description": "Toggle the left and right sidebars together with one hotkey, or by double-clicking the note text area.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": ["obsidian", "sidebar"],
+  "author": "Michael Stamper",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "0.21.5",
+    "obsidian": "^1.14.4",
+    "tslib": "2.6.2",
+    "typescript": "5.4.5"
+  }
+}
